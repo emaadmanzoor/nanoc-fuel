@@ -37,9 +37,11 @@ Then, in your layout add any of these:
 
     fb_comments("url", "num_posts", "width")
 
-    fb_like_btn("standard", "450", "true", "true")
+    fb_like_btn(layout, width, height, send, show_faces)
 
     ga_tracking("UA-XXXXX")
+
+View the [Facebook Plugin Documentation][http://developers.facebook.com/docs/plugins/] to figure out what exactly the parameters do.
 
 Contact
 ------------
